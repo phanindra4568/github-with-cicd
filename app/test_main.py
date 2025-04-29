@@ -1,4 +1,4 @@
-rom main import app
+from main import app
 
 def test_index():
     tester = app.test_client()
